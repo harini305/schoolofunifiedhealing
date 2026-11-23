@@ -1,0 +1,104 @@
+{
+ "taxNote": "Prices are in thousands of Indonesian Rupiah and exclude a 16% service charge and government tax.",
+ "categories": [
+  {
+   "name": "Smoothie Bowls",
+   "items": [
+    { "name": "Make Your Own Smoothie Bowl", "desc": "Dragon fruit, banana, strawberry, pineapple or mango with yoghurt or coconut cream and granola", "price": "65K · 70K choose 3" },
+    { "name": "Mango Sunrise", "desc": "Mango, chia seeds, pineapple, pumpkin seeds with yoghurt or coconut cream and granola", "price": "75K" }
+   ]
+  },
+  {
+   "name": "Mains",
+   "items": [
+    { "name": "Butternut Feta", "desc": "Fried butternut and feta, pumpkin seeds, red cabbage, parsley and coriander, diced tomatoes and chickpeas with herby lemon dressing. Vegan option with fried tofu", "price": "80K" },
+    { "name": "Curry Dhal Bowl", "desc": "A cozy traditional North Indian dhal soup to warm the heart and soul", "price": "80K" },
+    { "name": "Vegetarian Burrito", "desc": "Egg, avocado salsa and parmesan wrapped in tortilla, with garden salad and fries", "price": "70K" },
+    { "name": "Falafel Bowl", "desc": "Vegan falafel with cucumber, cherry tomatoes and hummus", "price": "80K" },
+    { "name": "Dal Makani", "desc": "North Indian black turtle beans, coconut cream, red kidney beans, mung beans and spices, with red rice", "price": "80K" },
+    { "name": "Nasi Goreng", "desc": "Indonesian fried rice with vegetables, eggs and crackers. Vegan option with fried tofu", "price": "65K" },
+    { "name": "Gado-Gado", "desc": "Blanched vegetables with tofu and bean curd, topped with peanut sauce", "price": "60K" },
+    { "name": "Rainbow Bowl", "desc": "Organic red rice, butternut, tofu, tempe, mango chutney, leafy greens, tomatoes, bean sprouts and seeds. Vegetarian option with egg", "price": "80K" },
+    { "name": "Avocado Salsa on Toast", "desc": "Toasted sourdough with scrambled egg, grilled cherry tomatoes, feta, lettuce and avocado salsa", "price": "65K" },
+    { "name": "Mie Goreng", "desc": "Stir-fried noodles with assorted vegetables, crackers and pickle. Vegan option with rice noodle, tempe or tofu", "price": "65K" },
+    { "name": "Tempe Wrap", "desc": "Tempe and raw veggies with chipotle dressing, served with sweet potato or potato fries", "price": "70K" }
+   ]
+  },
+  {
+   "name": "Sides",
+   "items": [
+    { "name": "Creamy Coconut Spinach", "price": "35K" },
+    { "name": "Chunky Sweet Potato Fries", "price": "35K" },
+    { "name": "Potato French Fries", "price": "35K" },
+    { "name": "Add Chapatti", "price": "5K" }
+   ]
+  },
+  {
+   "name": "Longevity Tonics",
+   "items": [
+    { "name": "Jing Slinger", "price": "60K" },
+    { "name": "Iron Digestion", "price": "60K" },
+    { "name": "Higher Feminine Expression", "price": "60K" }
+   ]
+  },
+  {
+   "name": "Desserts",
+   "items": [
+    { "name": "Homemade Brownies (Gluten Free)", "price": "60K" },
+    { "name": "Homemade Cookies", "price": "60K" },
+    { "name": "Vegan Banana Loaf", "price": "60K" }
+   ]
+  },
+  {
+   "name": "Teas",
+   "items": [
+    { "name": "Divine Feminine Tea", "desc": "Herbal blend for women's wellness", "price": "50K" },
+    { "name": "Male Vitality Tea", "desc": "Herbal blend for men's health", "price": "50K" },
+    { "name": "Healing Tea", "desc": "Lemongrass, rose and marigold", "price": "50K" },
+    { "name": "Blue Lotus Tea", "desc": "Whole blue lotus flower", "price": "50K" }
+   ]
+  },
+  {
+   "name": "Hot Drinks",
+   "items": [
+    { "name": "Americano", "price": "40K" },
+    { "name": "Espresso", "price": "40K" },
+    { "name": "Caffé Latte", "price": "55K" },
+    { "name": "Cappuccino", "price": "50K" },
+    { "name": "Mochaccino", "price": "60K" },
+    { "name": "Decaf Coffee", "price": "55K" },
+    { "name": "Masala Chai Tea", "price": "50K" },
+    { "name": "Mushroom Coffee", "price": "60K" }
+   ]
+  },
+  {
+   "name": "Cold Drinks, Matcha & Cacao",
+   "items": [
+    { "name": "Sparkling Water", "price": "25K" },
+    { "name": "Nimbu", "desc": "Soda and fresh lime", "price": "40K" },
+    { "name": "Shi Kanji", "desc": "Soda, lemon and mint", "price": "45K" },
+    { "name": "Bottled Kombucha", "price": "55K" },
+    { "name": "Matcha Latte", "price": "60K" },
+    { "name": "Matcha Ice Tea", "price": "65K" },
+    { "name": "Taro Latte", "price": "55K" },
+    { "name": "Signature Sacred Cacao", "desc": "Ceremonial cacao, cinnamon, cardamom, desiccated coconut, vanilla, coconut sugar", "price": "65K" }
+   ]
+  },
+  {
+   "name": "Organic Cold-Pressed Juices",
+   "items": [
+    { "name": "Classic Greenie", "desc": "Spinach, parsley, celery, cucumber, fresh ginger, pineapple", "price": "50K" },
+    { "name": "Detoxifier", "desc": "Spinach, beetroot, carrots, ginger, celery, lemongrass", "price": "55K" },
+    { "name": "Immune Booster", "desc": "Orange, carrot, lemon, ginger, mango, mint, tomato", "price": "55K" },
+    { "name": "Trojan Blood", "desc": "Beetroot, carrot, passion fruit, celery, tomato, orange", "price": "55K" }
+   ]
+  },
+  {
+   "name": "Smoothies",
+   "items": [
+    { "name": "Make Your Own Smoothie", "desc": "Dragon fruit, banana, strawberry, pineapple or mango with yoghurt or coconut cream", "price": "55K · 65K choose 3" },
+    { "name": "Coffee Delight", "desc": "Banana, dates, peanut butter, almond milk and a dash of espresso", "price": "65K" }
+   ]
+  }
+ ]
+}

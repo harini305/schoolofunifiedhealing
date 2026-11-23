@@ -1,0 +1,86 @@
+[
+ {
+  "id": "full-moon-gathering",
+  "name": "Full Moon Gathering",
+  "tagline": "Cacao ceremony, ecstatic dance, sound journey & fire ritual under the Full Moon in Ubud.",
+  "date": "Tuesday, 24th November",
+  "time": "17.30–22.00",
+  "price": null,
+  "facilitator": null,
+  "poster": "Option_1.1__282_29.png",
+  "booking": "https://megatix.co.id/events/full-moon-at-school",
+  "description": "Join us for a special evening of intention, movement, ceremony, and connection under the Full Moon in Ubud. This gathering is more than an ecstatic dance event: a carefully held journey through ceremonial cacao, embodied movement, fire ritual, and sound. No steps to follow, no performance, no expectations — come as you are.",
+  "flow": [
+   "5.20–5.45 pm | Arrival — arrive, settle in and connect with the space",
+   "5.45–6.30 pm | Cacao ceremony — open your heart and set your intention",
+   "6.30–8.30 pm | Ecstatic dance — music, movement, freedom and release",
+   "8.45–9.30 pm | Gather by the fire & ritual beneath the Full Moon",
+   "9.30–10.00 pm | Closing circle to integrate the experience"
+  ],
+  "notes": ["Kitchen: last orders at 9.00 pm if you would like food during the evening.", "Refund policy: tickets are non-refundable in case of non-attendance or cancellation by the ticket holder.", "Date on the original poster reads 2026 while surrounding events are 2025 — flagged for owner confirmation."]
+ },
+ {
+  "id": "ikigai-remember-who-you-are",
+  "name": "Ikigai — Remember Who You Are",
+  "tagline": "An interactive 2.5-hour workshop exploring the Japanese philosophy of Ikigai and what makes life meaningful.",
+  "date": "Friday, 27th November",
+  "time": "14.00–16.30",
+  "price": "IDR 280K",
+  "facilitator": "Daniel Alchemy",
+  "poster": "daniel_-_fri_27.png",
+  "booking": "https://megatix.co.id/events/ikigai-remember-who-you-are",
+  "description": "Have you ever felt that something is missing in your life — that you are living according to expectations rather than truly following your own path? Through guided self-reflection, journaling, group conversations and a future-life visualization, you will explore your passions, natural strengths, deeper desires and what might be holding you back. This is not about finding all the answers in one afternoon; it is about asking the right questions, gaining clarity and remembering who you really are.",
+  "flow": null,
+  "notes": ["An interactive and reflective experience. No previous knowledge of Ikigai is required.", "About the facilitator: Daniel is an Ikigai mentor and life alchemist, guiding people toward clarity, purpose and meaningful work."]
+ },
+ {
+  "id": "ecstatic-breathwork",
+  "name": "Ecstatic Breathwork",
+  "tagline": "Conscious connected breathwork meeting the liberating energy of ecstatic dance — a 150-minute guided journey.",
+  "date": "Saturday, 28th November",
+  "time": "14.00–16.30",
+  "price": "IDR 280K",
+  "facilitator": "Dave Pastanella",
+  "poster": "dave-_sat_28.png",
+  "booking": "https://megatix.co.id/events/ecstatic-breathwork",
+  "description": "What happens when conscious breath meets the freedom of movement? An immersive transformational journey combining conscious connected breathwork with the liberating energy of ecstatic dance. The breath gradually transforms into movement, and movement becomes an authentic expression of freedom, joy and aliveness. No choreography. No performance. No judgment. Come as you are — comfortable clothes, a water bottle, an open mind.",
+  "flow": [
+   "10 min | Landing & grounding",
+   "15 min | Opening circle — introductions, intentions and agreements",
+   "45 min | Conscious connected breathwork with an immersive musical journey",
+   "50 min | Ecstatic dance — from breath into free, intuitive movement",
+   "15 min | Integration circle",
+   "10 min | Closing circle — gratitude and sharing",
+   "5 min | Aftercare guidelines"
+  ],
+  "notes": ["No previous breathwork or dance experience is required; you are always welcome to rest, slow down or adapt your experience.", "Who should avoid this workshop: not suitable for people who are pregnant or have uncontrolled cardiovascular conditions, uncontrolled high blood pressure, epilepsy or a history of seizures, recent major surgery, or current psychosis or mania. People with other significant medical or psychological conditions should contact the facilitator before registering.", "About the facilitator: Dave Pastanella, known as The Joy Awakener, is a transformative coach, breathwork and embodiment facilitator, ecstatic dance DJ and music producer."]
+ },
+ {
+  "id": "dvara",
+  "name": "Dvara — A Gateway to Inner Wisdom",
+  "tagline": "A restorative experience combining Empowerment Yin yoga with breathwork, journalling and guided visualisation.",
+  "date": "Friday, 4th December",
+  "time": "14.00–16.30",
+  "price": "IDR 280K",
+  "facilitator": "Marnie Hodgson",
+  "poster": "eya-_dec_5__283_29.png",
+  "booking": "https://megatix.co.id/events/dvara-a-gateway-to-inner-wisdom",
+  "description": "Dvara is Sanskrit for 'door' or 'gateway' — this workshop invites you to step through one. Long, supported postures let the body soften and release; reflective prompts and meditation open space for introspection. A chance to pause, notice what you are ready to leave behind, and step towards what is waiting on the other side. Please bring a journal and a willingness to venture inward.",
+  "flow": ["75 minutes of restorative Empowerment Yin with self-discovery prompts", "Future-self meditation — a guided visualisation", "Closing circle — time to share and integrate"],
+  "notes": ["Who should avoid this workshop: this practice is gentle, but long holds and inner work can bring a lot to the surface — please speak with the team before booking if you are pregnant, recovering from injury, or navigating acute mental-health challenges.", "All postures can be modified with props; you are always free to rest or step back from sharing.", "About the facilitator: Marnie has completed over 500 hours of training in Power Yoga, Meditation and Pranayama, Empowerment Yoga, and Hands-on Adjustments."]
+ },
+ {
+  "id": "sensual-healing-dance-event",
+  "name": "Sensual Healing Dance",
+  "tagline": "A full immersive journey into your sensual self through dance, sound and sensory exploration, inspired by the sacral chakra.",
+  "date": "Saturday, 5th December",
+  "time": "14.00–16.30",
+  "price": "IDR 280K",
+  "facilitator": "Eya Shaman",
+  "poster": "eya-_dec_5__281_29__281_29.png",
+  "booking": "https://megatix.co.id/events/sensual-healing-dance",
+  "description": "Reconnect with your body, emotions and creative life force through dance, sound and sensory exploration. Eya creates a supportive and sacred space where your authentic expression, vulnerability and individuality are welcome — move on the floor, standing or through the air. There is no choreography to master and no expectation to meet. Your body. Your rhythm. Your choice.",
+  "flow": null,
+  "notes": ["No previous dance experience is required; wear loose, comfortable clothing that allows you to move freely.", "Who should avoid this workshop: because the session may involve expressive movement and intense emotions, it may not be suitable for someone experiencing an acute physical injury or emotional crisis. The workshop is not a substitute for medical care or psychological treatment.", "About the facilitator: Eya is an experienced embodied somatic dancer and certified Water therapist."]
+ }
+]

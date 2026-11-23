@@ -1,0 +1,10 @@
+node_modules/
+.next/
+out/
+.vercel
+*.log
+docs/source-audit/original-assets/
+docs/source-audit/raw/
+docs/source-audit/screenshots/
+docs/phase-2-work/
+docs/phase-2/qa/

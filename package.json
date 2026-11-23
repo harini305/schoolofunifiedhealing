@@ -1,0 +1,17 @@
+{
+  "name": "unified-healing-bali",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3417",
+    "build": "next build",
+    "start": "next start -p 3417"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.2",
+    "gsap": "^3.15.1",
+    "next": "^15.5.29",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
