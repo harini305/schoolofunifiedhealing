@@ -48,6 +48,7 @@ Measured `lastSection.height + footer.height − innerHeight` on all 6 pages at 
 ### Correction round 4 — equal section spacing
 - Every section now has **equal 32px top and bottom padding**, including the gold mission and closing bands. Verified with computed styles on all 6 pages: zero unequal sections.
 - The gold mission section was redesigned to remove its empty top-right area: the heading and CTA now sit beside two original community photos, with the three mission points below. Verified at 1440px and 390px with no overflow.
+- The home “Connect. Transform. Heal.” section was completely redesigned as an editorial heading/text split followed by three equal aligned photos, replacing the offset collage and removing unused space. Verified at 1440px and 390px.
 
 ### QA artifacts (not site bugs)
 Lazy-loaded images appear blank in some early full-page screenshots; forcing eager loads confirmed all images render correctly. Dev-mode "N" badge is Next.js tooling.

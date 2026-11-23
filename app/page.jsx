@@ -8,29 +8,34 @@ export default function HomePage() {
     <>
       <Hero />
 
-      <section className="section">
-        <div className="container grid-2 welcome-split">
-          <div data-reveal>
+      <section className="section welcome-editorial">
+        <div className="container">
+          <div className="welcome-editorial-head" data-reveal>
             <h2>Connect. Transform. <span className="accent">Heal.</span></h2>
-            <p>
-              Community is at the heart of everything we do. We believe that true healing happens
-              when we come together, support one another, and grow as a collective.
-            </p>
-            <p>
-              Our mission is to provide the space, resources and practices that facilitate personal
-              growth and healing — with over 30 teachers volunteering their time every week, so that
-              healing stays accessible to everyone, regardless of financial means.
-            </p>
-            <div className="btn-row">
-              <Link className="btn btn-dark" href="/about" prefetch={false}>Our mission</Link>
+            <div className="welcome-editorial-copy">
+              <p>
+                Community is at the heart of everything we do. We believe that true healing happens
+                when we come together, support one another, and grow as a collective.
+              </p>
+              <p>
+                Our mission is to provide the space, resources and practices that facilitate personal
+                growth and healing — with over 30 teachers volunteering their time every week, so that
+                healing stays accessible to everyone, regardless of financial means.
+              </p>
+              <div className="btn-row">
+                <Link className="btn btn-dark" href="/about" prefetch={false}>Our mission</Link>
+              </div>
             </div>
           </div>
-          <div className="collage-duo" data-reveal>
-            <div className="frame frame-blob img-hover photo-a">
+          <div className="welcome-photo-trio" data-reveal>
+            <div className="frame frame-rect img-hover">
               <img src="/images/shala-sound-healing.webp" alt="A sound healing session with singing bowls inside the shala" width="1227" height="818" />
             </div>
-            <div className="frame frame-rect img-hover photo-b">
+            <div className="frame frame-rect img-hover">
               <img src="/images/students-group.webp" alt="Students gathered after a community class" width="677" height="508" />
+            </div>
+            <div className="frame frame-rect img-hover">
+              <img src="/images/shala-yoga-class.webp" alt="Students practicing yoga together in the shala" width="1400" height="933" />
             </div>
           </div>
         </div>
