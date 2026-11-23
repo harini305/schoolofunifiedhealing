@@ -610,3 +610,16 @@ fieldset.field { border: none; margin: 0; padding: 0; }
   .welcome-editorial-head { grid-template-columns: 1fr; gap: 16px; }
   .welcome-photo-trio { gap: 10px; margin-top: 22px; }
 }
+
+/* ---------- Welcome: full-width title + balanced text/photo row ---------- */
+.welcome-editorial-title { margin-bottom: 20px; }
+.welcome-editorial-body { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 36px; align-items: stretch; }
+.welcome-editorial-copy { max-width: 58ch; display: flex; flex-direction: column; justify-content: center; }
+.welcome-editorial-copy .btn-row { margin-top: 18px; }
+.welcome-photo-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; align-items: start; }
+.welcome-photo-duo .frame { aspect-ratio: 4 / 3.4; }
+.welcome-photo-duo img { width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 900px) {
+  .welcome-editorial-body { grid-template-columns: 1fr; gap: 20px; }
+  .welcome-photo-duo { gap: 10px; }
+}

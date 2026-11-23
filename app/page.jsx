@@ -10,8 +10,8 @@ export default function HomePage() {
 
       <section className="section welcome-editorial">
         <div className="container">
-          <div className="welcome-editorial-head" data-reveal>
-            <h2>Connect. Transform. <span className="accent">Heal.</span></h2>
+          <h2 className="welcome-editorial-title" data-reveal>Connect. Transform. <span className="accent">Heal.</span></h2>
+          <div className="welcome-editorial-body" data-reveal>
             <div className="welcome-editorial-copy">
               <p>
                 Community is at the heart of everything we do. We believe that true healing happens
@@ -26,16 +26,13 @@ export default function HomePage() {
                 <Link className="btn btn-dark" href="/about" prefetch={false}>Our mission</Link>
               </div>
             </div>
-          </div>
-          <div className="welcome-photo-trio" data-reveal>
-            <div className="frame frame-rect img-hover">
-              <img src="/images/shala-sound-healing.webp" alt="A sound healing session with singing bowls inside the shala" width="1227" height="818" />
-            </div>
-            <div className="frame frame-rect img-hover">
-              <img src="/images/students-group.webp" alt="Students gathered after a community class" width="677" height="508" />
-            </div>
-            <div className="frame frame-rect img-hover">
-              <img src="/images/shala-yoga-class.webp" alt="Students practicing yoga together in the shala" width="1400" height="933" />
+            <div className="welcome-photo-duo">
+              <div className="frame frame-rect img-hover">
+                <img src="/images/shala-sound-healing.webp" alt="A sound healing session with singing bowls inside the shala" width="1227" height="818" />
+              </div>
+              <div className="frame frame-rect img-hover">
+                <img src="/images/students-group.webp" alt="Students gathered after a community class" width="677" height="508" />
+              </div>
             </div>
           </div>
         </div>
