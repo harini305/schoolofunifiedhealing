@@ -71,7 +71,7 @@ export default function EventsPage() {
             <h2>Trainings</h2>
             <p>Multi-day programmes for deeper study. Every body and every level of experience is welcome.</p>
           </div>
-          <article className="event-card" data-reveal>
+          <article className="event-card training-card" data-reveal>
             <div className="event-poster">
               <img src="/images/training-lisa.webp" alt="Creating Sacred Vibrational Architecture training with Lisa Ascher" loading="lazy" />
             </div>

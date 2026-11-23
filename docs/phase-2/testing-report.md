@@ -28,6 +28,16 @@ Measured `lastSection.height + footer.height − innerHeight` on all 6 pages at 
 4. Hero facts line cramped behind WhatsApp float at 390px → third fact hidden on small screens, smaller type.
 5. Footer compacted (186px → 164px).
 
+### Correction round 2 — section-by-section alignment and spacing review
+1. **Overlapping collage images** were measured crossing into the next section's heading (home +31px, about +12px). Replaced absolute-positioned overlaps with two-column `collage-duo` layouts; re-measured clearances are now **−42px home and −92px about** (no overlap).
+2. **Repeated arch image treatment** replaced with varied rectangular, organic blob, oval and collage compositions across home, about, classes, enrollment and contact.
+3. **Empty space under pinned images** filled: support photo now 480px, impact 340px, contact aside 230px; enrollment aside redesigned with two photos plus a submission-process card.
+4. **Teacher grid** changed from 4 to 5 columns on wide screens (4/3/2 responsively), shortening the page and avoiding a mostly empty final row.
+5. **Event posters were cropped** by `object-fit: cover`; now displayed uncropped with `object-fit: contain`, alternating left/right placement and vertically centered content. Training uses its own placement.
+6. **Mobile event layout** corrected to a single column after the new desktop grid overrode the mobile rule; all posters and text verified readable at 390px.
+7. Contact fire circle and healing shop redesigned as alternating feature splits; restaurant uses an organic image shape.
+8. Re-verified after the redesign: **36/36 footer-fit checks = 0px overflow**, **0px horizontal overflow on all 6 pages at 390px and 320px**, and `npm run build` passes.
+
 ### QA artifacts (not site bugs)
 Lazy-loaded images appear blank in some early full-page screenshots; forcing eager loads confirmed all images render correctly. Dev-mode "N" badge is Next.js tooling.
 

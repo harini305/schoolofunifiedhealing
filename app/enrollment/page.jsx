@@ -84,8 +84,17 @@ export default function EnrollmentPage() {
           <div className="pin-aside" data-reveal>
             <h2>Student enrollment form</h2>
             <p>All sections marked * must be filled. Thank you — we warmly welcome you to our heart-centered community.</p>
-            <div className="frame frame-arch img-hover support-photo">
-              <img src="/images/hero-shala-circle.webp" alt="Students seated in a circle inside the shala" width="1200" height="800" loading="lazy" />
+            <div className="enroll-aside-media">
+              <div className="frame frame-oval img-hover enroll-aside-main">
+                <img src="/images/hero-shala-circle.webp" alt="Students seated in a circle inside the shala" width="1200" height="800" loading="lazy" />
+              </div>
+              <div className="enroll-process">
+                <strong>After you submit</strong>
+                <p>Your email app opens with the completed enrollment. Review the details and press send to finish.</p>
+              </div>
+              <div className="frame frame-rect img-hover enroll-aside-secondary">
+                <img src="/images/shala-yoga-class.webp" alt="A community yoga class inside the shala" width="1400" height="933" loading="lazy" />
+              </div>
             </div>
           </div>
           <div data-reveal>

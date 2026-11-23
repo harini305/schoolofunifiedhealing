@@ -32,6 +32,9 @@ export default function ContactPage() {
                 <span>Open in Google Maps</span>
               </a>
             </div>
+            <div className="frame frame-rect img-hover contact-aside-photo">
+              <img src="/images/shala-yoga-class.webp" alt="Students practicing together inside the shala" width="1400" height="933" />
+            </div>
           </div>
           <div data-reveal>
             <h2>In the heart of the rice fields</h2>
@@ -40,7 +43,7 @@ export default function ContactPage() {
               connection to nature. We are accessible by scooter or by walking from the main road —
               leave plenty of time to find us on your first visit.
             </p>
-            <div className="frame frame-arch img-hover visit-photo">
+            <div className="frame frame-rect img-hover visit-photo">
               <img src="/images/terrace-ricefields.webp" alt="Relaxing on the terrace overlooking the rice fields" width="1400" height="1264" />
             </div>
             <div className="venue-note">
@@ -64,7 +67,7 @@ export default function ContactPage() {
 
       <section className="section cream">
         <div className="container grid-2 welcome-split">
-          <div className="frame frame-arch img-hover restaurant-photo" data-reveal>
+          <div className="frame frame-blob img-hover restaurant-photo" data-reveal>
             <img src="/images/restaurant-view.webp" alt="The Sunset Restaurant overlooking the rice fields" width="1000" height="1266" loading="lazy" />
           </div>
           <div data-reveal>
@@ -107,28 +110,32 @@ export default function ContactPage() {
       </section>
 
       <section className="section">
-        <div className="container grid-2">
-          <div data-reveal>
-            <h2>Our fire circle</h2>
-            <h3>A place of transformation</h3>
-            <p>
-              Hire our fire circle for your gathering, where warmth and wisdom come together.
-              Whether during evening events or spontaneous community gatherings, the fire serves as
-              a sacred space for sharing, releasing and connecting.
-            </p>
-            <div className="frame img-hover small-photo">
+        <div className="container">
+          <div className="feature-split" data-reveal>
+            <div>
+              <h2>Our fire circle</h2>
+              <h3>A place of transformation</h3>
+              <p>
+                Hire our fire circle for your gathering, where warmth and wisdom come together.
+                Whether during evening events or spontaneous community gatherings, the fire serves as
+                a sacred space for sharing, releasing and connecting.
+              </p>
+            </div>
+            <div className="frame frame-rect img-hover feature-photo">
               <img src="/images/fire-circle-night.webp" alt="A ceremony around the fire circle at night" width="1000" height="1266" loading="lazy" />
             </div>
           </div>
-          <div data-reveal>
-            <h2>Our healing shop</h2>
-            <h3>Products for mind, body and spirit</h3>
-            <p>
-              A carefully selected range of products to support your journey toward wellness — from
-              handcrafted crystals and healing tools to locally made wellness products, each item
-              supporting local artisans and the school.
-            </p>
-            <div className="frame img-hover small-photo">
+          <div className="feature-split reverse" data-reveal>
+            <div>
+              <h2>Our healing shop</h2>
+              <h3>Products for mind, body and spirit</h3>
+              <p>
+                A carefully selected range of products to support your journey toward wellness — from
+                handcrafted crystals and healing tools to locally made wellness products, each item
+                supporting local artisans and the school.
+              </p>
+            </div>
+            <div className="frame frame-oval img-hover feature-photo">
               <img src="/images/healing-shop.webp" alt="Locally made soaps in the healing shop" width="1200" height="900" loading="lazy" />
             </div>
           </div>

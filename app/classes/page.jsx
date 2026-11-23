@@ -34,7 +34,7 @@ export default function ClassesPage() {
               <Link className="btn btn-gold" href="/enrollment" prefetch={false}>Enrollment options</Link>
             </div>
           </div>
-          <div className="frame frame-arch img-hover classes-closing-photo">
+          <div className="frame frame-rect img-hover classes-closing-photo">
             <img src="/images/sound-bowls-class.webp" alt="A sound healing class with singing bowls at the school" width="1482" height="988" loading="lazy" />
           </div>
         </div>

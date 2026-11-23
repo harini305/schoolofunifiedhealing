@@ -21,7 +21,7 @@
 - `--section-gap: 32px` between every section (`.section + .section { padding-top: 0 }`).
 - Header: 84px desktop / 68px mobile. Transparent over home hero, solid elsewhere, hides at footer.
 - Container 1280px, narrow 880px, gutter `clamp(20px, 4vw, 56px)`. Full-width sections, no side gutters.
-- Radius 6px; lotus-arch masks `999px 999px 8px 8px` + 1px gold offset outline (signature, from the lotus logo).
+- Radius 6px; image treatments vary by section: rectangular frames with offset gold borders, organic blob masks, oval portraits, and two-image `collage-duo` compositions. The lotus arch remains only as a single accent, avoiding repeated image placement.
 - Footer: dark ink, 3-column row + thin base line (~164px measured), measured into `--footer-h` by JS.
 
 ## Fit-to-footer

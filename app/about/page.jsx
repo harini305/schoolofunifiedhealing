@@ -39,11 +39,11 @@ export default function AboutPage() {
               connection to their true nature creates the radical shift we wish to see in the world.
             </p>
           </div>
-          <div className="overlap-pair" data-reveal>
-            <div className="frame frame-arch img-hover photo-a">
+          <div className="collage-duo" data-reveal>
+            <div className="frame frame-oval img-hover photo-a">
               <img src="/images/community-circle.webp" alt="A community circle inside the shala" width="1400" height="933" />
             </div>
-            <div className="frame img-hover photo-b">
+            <div className="frame frame-rect img-hover photo-b">
               <img src="/images/community-meditation.webp" alt="Students in a guided meditation" width="1200" height="900" />
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function AboutPage() {
           <div className="pin-aside" data-reveal>
             <h2>The impact of our community</h2>
             <p>Our community is more than a gathering of individuals — it is a living, breathing network of souls on a journey toward healing and transformation.</p>
-            <div className="frame frame-arch img-hover support-photo">
+            <div className="frame frame-rect img-hover impact-photo">
               <img src="/images/community-workshop.webp" alt="A creative community workshop at the school" width="1200" height="800" loading="lazy" />
             </div>
           </div>

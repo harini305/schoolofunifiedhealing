@@ -25,11 +25,11 @@ export default function HomePage() {
               <Link className="btn btn-dark" href="/about" prefetch={false}>Our mission</Link>
             </div>
           </div>
-          <div className="overlap-pair" data-reveal>
-            <div className="frame frame-arch img-hover photo-a">
+          <div className="collage-duo" data-reveal>
+            <div className="frame frame-blob img-hover photo-a">
               <img src="/images/shala-sound-healing.webp" alt="A sound healing session with singing bowls inside the shala" width="1227" height="818" />
             </div>
-            <div className="frame img-hover photo-b">
+            <div className="frame frame-rect img-hover photo-b">
               <img src="/images/students-group.webp" alt="Students gathered after a community class" width="677" height="508" />
             </div>
           </div>
@@ -123,7 +123,7 @@ export default function HomePage() {
               Every contribution keeps our free classes running and allows us to offer healing to
               all. There are many ways you can support our school.
             </p>
-            <div className="frame frame-arch img-hover support-photo">
+            <div className="frame frame-rect img-hover support-photo">
               <img src="/images/ricefield-fire-circle.webp" alt="The fire circle among the rice fields of the school" width="1400" height="933" loading="lazy" />
             </div>
           </div>
