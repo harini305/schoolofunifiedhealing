@@ -584,3 +584,16 @@ fieldset.field { border: none; margin: 0; padding: 0; }
 .section + .section { padding-top: var(--section-gap); padding-bottom: var(--section-gap); }
 .section.contact-top { padding-top: calc(var(--header-h) + 40px); }
 .page-hero { padding-bottom: var(--section-gap); }
+
+/* ---------- Mission section: photo pair fills the right side ---------- */
+.mission-top { display: grid; grid-template-columns: 1.05fr 0.95fr; gap: 32px; align-items: center; }
+.mission-copy h2 { max-width: 22ch; }
+.mission-copy .btn-row { margin-top: 20px; }
+.mission-photos { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+.mission-photo { aspect-ratio: 4 / 3.4; }
+.mission-photo img { width: 100%; height: 100%; object-fit: cover; }
+.mission-band .mission-points { margin-top: 26px; margin-bottom: 0; }
+@media (max-width: 900px) {
+  .mission-top { grid-template-columns: 1fr; gap: 22px; }
+  .mission-copy h2 { max-width: 26ch; }
+}

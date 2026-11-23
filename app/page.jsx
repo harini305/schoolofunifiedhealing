@@ -103,14 +103,26 @@ export default function HomePage() {
 
       <section className="section gold-band">
         <div className="container mission-band" data-reveal>
-          <h2>We are founded upon non-profit spiritual values, driven by the belief that true healing comes from giving and receiving with an open heart.</h2>
+          <div className="mission-top">
+            <div className="mission-copy">
+              <h2>We are founded upon non-profit spiritual values, driven by the belief that true healing comes from giving and receiving with an open heart.</h2>
+              <div className="btn-row">
+                <Link className="btn btn-dark" href="/about" prefetch={false}>About our community</Link>
+              </div>
+            </div>
+            <div className="mission-photos">
+              <div className="frame frame-blob img-hover mission-photo">
+                <img src="/images/community-men.webp" alt="Community members gathered among the rice fields" width="1200" height="900" loading="lazy" />
+              </div>
+              <div className="frame frame-rect img-hover mission-photo">
+                <img src="/images/community-creative.webp" alt="A gathering around the fire circle at night" width="1200" height="900" loading="lazy" />
+              </div>
+            </div>
+          </div>
           <div className="mission-points">
             <p>We have built a vibrant community of 30-plus teachers who volunteer their time for free to serve others every week.</p>
             <p>Thousands of people have accessed transformative healing experiences, many of whom would not have had the financial means to do so elsewhere.</p>
             <p>We have created a safe, sacred space where individuals can reconnect with themselves, overcome past blocks and discover new paths forward.</p>
-          </div>
-          <div className="btn-row">
-            <Link className="btn btn-dark" href="/about" prefetch={false}>About our community</Link>
           </div>
         </div>
       </section>
