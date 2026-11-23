@@ -18,7 +18,7 @@
 | WhatsApp green | #25D366 | WhatsApp float only |
 
 ## Layout tokens
-- `--section-gap: 32px` between every section, applied as explicit 32px top padding on every section (verified with computed styles).
+- `--section-gap: 32px` applied as **equal 32px top and bottom padding** on every section (verified with computed styles).
 - Header: 84px desktop / 68px mobile. Transparent over home hero, solid elsewhere, hides at footer.
 - Container 1280px, narrow 880px, gutter `clamp(20px, 4vw, 56px)`. Full-width sections, no side gutters.
 - Radius 6px; image treatments vary by section: rectangular frames with offset gold borders, organic blob masks, oval portraits, and two-image `collage-duo` compositions. The lotus arch remains only as a single accent, avoiding repeated image placement.

@@ -578,3 +578,9 @@ fieldset.field { border: none; margin: 0; padding: 0; }
   .classes-closing.fit-body { flex-direction: column; }
   .classes-closing-photo { width: 100%; flex: auto; }
 }
+
+/* ---------- Equal top and bottom section spacing ---------- */
+.section,
+.section + .section { padding-top: var(--section-gap); padding-bottom: var(--section-gap); }
+.section.contact-top { padding-top: calc(var(--header-h) + 40px); }
+.page-hero { padding-bottom: var(--section-gap); }

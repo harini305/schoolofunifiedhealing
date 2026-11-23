@@ -45,6 +45,9 @@ Measured `lastSection.height + footer.height − innerHeight` on all 6 pages at 
 4. **Classes closing on mobile:** a desktop flex rule forced text and photo into two cramped columns. It now stacks with a full-width photo at ≤900px.
 5. Re-checked all 6 pages at **1440, 1366, 768 and 390**, plus 320px overflow checks. Final matrix: **36/36 footer-fit = 0px overflow**, **0px horizontal overflow everywhere**, `npm run build` passes.
 
+### Correction round 4 — equal section spacing
+- Every section now has **equal 32px top and bottom padding**, including the gold mission and closing bands. Verified with computed styles on all 6 pages: zero unequal sections.
+
 ### QA artifacts (not site bugs)
 Lazy-loaded images appear blank in some early full-page screenshots; forcing eager loads confirmed all images render correctly. Dev-mode "N" badge is Next.js tooling.
 
