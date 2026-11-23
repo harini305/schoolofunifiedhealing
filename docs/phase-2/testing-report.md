@@ -38,6 +38,13 @@ Measured `lastSection.height + footer.height − innerHeight` on all 6 pages at 
 7. Contact fire circle and healing shop redesigned as alternating feature splits; restaurant uses an organic image shape.
 8. Re-verified after the redesign: **36/36 footer-fit checks = 0px overflow**, **0px horizontal overflow on all 6 pages at 390px and 320px**, and `npm run build` passes.
 
+### Correction round 3 — section gaps and empty-space review
+1. **Section top spacing:** sections previously had `padding-top: 0`. Every section now has explicit **32px top padding**, verified with computed styles on all pages.
+2. **Collage alignment:** the new two-image collages were bottom-aligned; now both image tops align.
+3. **Contact menu empty column:** the two-column grid left a large blank area beside the long Mains category. Menu categories now flow across both columns with `columns: 2` and `break-inside: avoid`, eliminating the empty space.
+4. **Classes closing on mobile:** a desktop flex rule forced text and photo into two cramped columns. It now stacks with a full-width photo at ≤900px.
+5. Re-checked all 6 pages at **1440, 1366, 768 and 390**, plus 320px overflow checks. Final matrix: **36/36 footer-fit = 0px overflow**, **0px horizontal overflow everywhere**, `npm run build` passes.
+
 ### QA artifacts (not site bugs)
 Lazy-loaded images appear blank in some early full-page screenshots; forcing eager loads confirmed all images render correctly. Dev-mode "N" badge is Next.js tooling.
 

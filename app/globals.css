@@ -558,3 +558,23 @@ fieldset.field { border: none; margin: 0; padding: 0; }
 
 /* balance event card content against the full-height poster */
 .event-card .event-body { display: flex; flex-direction: column; justify-content: center; }
+
+/* ---------- Correction round 3: explicit 32px top gap, aligned tops, balanced menu ---------- */
+.section { padding-top: var(--section-gap); padding-bottom: 0; }
+.section + .section { padding-top: var(--section-gap); }
+.section.contact-top { padding-top: calc(var(--header-h) + 40px); }
+.page-hero { padding-bottom: 0; }
+
+.collage-duo { align-items: start; }
+
+/* categories flow across both columns instead of leaving one long empty side */
+.menu-cats { display: block; columns: 2; column-gap: 40px; }
+.menu-cat { break-inside: avoid; margin-bottom: 28px; }
+@media (max-width: 900px) {
+  .menu-cats { columns: 1; }
+}
+
+@media (max-width: 900px) {
+  .classes-closing.fit-body { flex-direction: column; }
+  .classes-closing-photo { width: 100%; flex: auto; }
+}
