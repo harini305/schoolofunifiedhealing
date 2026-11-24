@@ -3,9 +3,6 @@ node_modules/
 out/
 .vercel
 *.log
-docs/source-audit/original-assets/
-docs/source-audit/raw/
-docs/source-audit/screenshots/
-docs/phase-2-work/
-docs/phase-2/qa/
-docs/phase-2/qa-round2/
+.env*
+docs/
+scripts/
